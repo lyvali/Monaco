@@ -24,15 +24,21 @@
           "description": "Executes code after player is teleported.",
           "insert": "queue_on_teleport"
       },
+      "orbit.internal": {
+          "label": "orbit.internal();",
+          "type": "Method",
+          "description": "Orbit's internal executor.",
+          "insert": "orbit.internal"
+      },
     
       "gethwid": {
           "label": "gethwid();",
           "type": "Method",
-          "description": "Returns the User's HWID, changes between PCs.",
+          "description": "Returns the User's HWID, changes between devices.",
           "insert": "gethwid"
       },
-      "message": {
-          "label": "message(text);",
+      "messagebox": {
+          "label": "messagebox(text);",
           "type": "Method",
           "description": "Creates a message box with parameters text",
           "insert": "message"
